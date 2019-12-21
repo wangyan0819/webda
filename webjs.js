@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2019-12-10 18:25:38
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2019-12-21 18:23:18
+* @Last Modified time: 2019-12-21 20:19:35
 */
 var over=function(){
 	var s=document.getElementById("img1");
@@ -55,7 +55,9 @@ var out4=function(){
 	s.style.width=parseInt(s.style.width)-10+"px";
 	s.style.height=parseInt(s.style.height)-10+"px";
 }
-
+function goTo(s){
+		location.hash = s; 
+	}
 
 
 
@@ -90,7 +92,7 @@ var box=document.getElementById("box");
 	}
 
 
-	var timer=setInterval(next,3500);
+	var timer=setInterval(next,3000);
 	box.onmouseover=function(){
 		animate(left,{opacity:50});
 		animate(right,{opacity:50});

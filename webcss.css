@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2019-12-10 18:25:21
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2019-12-21 18:33:41
+* @Last Modified time: 2019-12-21 20:51:30
 */
 ul{
 	list-style-type: none;
@@ -35,7 +35,7 @@ ul{
 	color: #eee;
 	top: 175px;
 	line-height: 50px;
-	background: #f00;
+	background: #21b9ec;
 	font-size: 30px;
 	position: absolute;
 	opacity: 0;
@@ -103,6 +103,7 @@ a{
 	color: #21b9ec;
 }
 .back{
+	margin-bottom: 30px;
 	margin-top: 10px;
 	background:#00467f;
 	opacity:0.7;
@@ -118,6 +119,8 @@ a{
 	margin: 10px auto;
 	position: relative;
 	overflow:hidden;
+	border:3px solid #21b9ec ;
+
 }
 .slider{
 	width: 3500px;
@@ -174,10 +177,11 @@ h2{
 }
 span{
 	font-family: KaiTi;
+	font-size:20px ;
 }
 p{
 	font-family: KaiTi;
-	font-size:10px ;
+	font-size:20px ;
 	float: left;
 
 }
